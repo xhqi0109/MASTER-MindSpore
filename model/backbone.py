@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
-# @Author: Wenwen Yu
-# @Created Time: 10/4/2020 14:19
 
-from torch import nn
+
 import mindspore.nn as mnn
 import mindspore as ms
-from model.context_block1 import MultiAspectGCAttention
+from model.context_block import MultiAspectGCAttention
 
 
 # CNN for Feature Extraction + Multi-Aspect GCAttention
