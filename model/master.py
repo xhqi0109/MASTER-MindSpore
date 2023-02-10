@@ -10,6 +10,7 @@ import numpy as np
 import mindspore.nn as mnn
 import mindspore as ms
 
+
 from model.backbone1 import ConvEmbeddingGC
 from model.transformer1 import Encoder, Decoder
 
