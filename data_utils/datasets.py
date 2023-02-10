@@ -7,6 +7,7 @@ import mindspore as ms
 
 STRING_MAX_LEN = 100
 
+
 class TextDataset():
 
     def __init__(self, txt_file = None, img_root = None, transform = None, target_transform = None, training = True,
