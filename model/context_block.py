@@ -6,6 +6,7 @@ import torch
 from torch import nn
 import mindspore as ms
 from mindspore import nn as mnn
+
 class MultiAspectGCAttention(mnn.Cell):
 
     def __init__(self,
