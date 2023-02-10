@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-
 import mindspore.nn as mnn
 import mindspore as ms
 from model.context_block import MultiAspectGCAttention
